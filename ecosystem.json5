@@ -38,7 +38,7 @@
       ref  : "origin/master",
       repo : "git@github.com:phahulin/xaxa-test-deploy.git",
       path : "/home/ubuntu/xaxa-test-deploy",
-      "post-deploy" : "pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy" : "pm2 startOrRestart ecosystem.json5 --env production"
     },
     dev : {
       user : "node",
